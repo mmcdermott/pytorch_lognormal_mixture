@@ -8,5 +8,6 @@ setup(name='pytorch_lognormal_distribution',
       long_description=long_description,
       author='Matthew McDermott; Original: Oleksandr Shchur, Marin Bilos, Stephan Guennemann',
       author_email='mattmcdermott8@gmail.com; Original: shchur@in.tum.de',
+      install_requires=['torch'],
       packages=find_packages('.'),
       zip_safe=False)
